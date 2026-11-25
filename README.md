@@ -1,12 +1,14 @@
 # claude-skill-trust-ladder
 
+Português | [English](README.en.md)
+
 Skill para o Claude Code (VS Code e terminal) e para o app do Claude: delegar trabalho de código a agentes de IA com confiança. Cobre briefing de agente, plano antes do código, `CLAUDE.md`, skill de verificação, restrições duras (lint, tipos, CI), eval de skills e escala para vários agentes.
 
 Chame com `/trust-ladder` seguido da tarefa. Os arquivos ficam em [`skills/trust-ladder`](skills/trust-ladder/SKILL.md), dentro de uma pasta `skills/` que aceita outras skills no futuro.
 
 ## O que a skill faz
 
-Seis modos, escolhidos pelo seu pedido: `brief` (escrever o briefing para o agente), `contexto` (preparar o projeto), `verificar`, `ambiente` (transformar erro repetido em regra dura), `minerar` (achar padrões no histórico de chats), `avaliar` (testar uma skill) e `escalar` (vários agentes, auto-merge com cautela). Modelos prontos ficam em [`references/templates.md`](skills/trust-ladder/references/templates.md), e há uma versão para colar em qualquer chat em [`references/prompt-colavel.md`](skills/trust-ladder/references/prompt-colavel.md).
+Sete modos, escolhidos pelo seu pedido: `brief` (escrever o briefing para o agente), `contexto` (preparar o projeto), `verificar`, `ambiente` (transformar erro repetido em regra dura), `minerar` (achar padrões no histórico de chats), `avaliar` (testar uma skill) e `escalar` (vários agentes, auto-merge com cautela). Modelos prontos ficam em [`references/templates.md`](skills/trust-ladder/references/templates.md), e há uma versão para colar em qualquer chat em [`references/prompt-colavel.md`](skills/trust-ladder/references/prompt-colavel.md).
 
 ## Origem e avisos
 
